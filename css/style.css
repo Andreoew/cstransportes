@@ -1,0 +1,42 @@
+header {
+  background-color: #0000BF;
+  color: white; }
+
+h1 {
+  text-align: center; }
+
+p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px; }
+
+a:link {
+  color: none;
+  background-color: transparent;
+  text-decoration: none; }
+
+.contatos .body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.contatos .content {
+  display: flex;
+  justify-content: center; }
+
+.contatos .contato {
+  width: 100%;
+  max-width: 500px; }
+
+.contatos .form {
+  display: flex;
+  flex-direction: column; }
+
+.contatos .fiedl {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+.contatos .text {
+  height: 150px; }

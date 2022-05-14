@@ -1,0 +1,862 @@
+@import'../node_modules/bootstrap/scss/bootstrap';
+
+body {
+    background-color: black;
+}
+
+
+header {
+    background-color: #0000FC;
+    position: relative; 
+    .container {
+        height: 100%;
+    }
+}
+.logo-small{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3px;
+    //background-color: #00E676;
+}
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-left: 200px;
+    @media(max-width: 500px){
+        margin-top: auto;
+        margin-left: 25%;
+    }
+
+}
+
+.nav-bar {
+    background-color: rgb(245, 241, 241);
+    
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.712);
+    background-color: white;
+}
+
+.nav-item {
+    padding: 1px;
+    margin: 1px;
+    background-color: rgba(250, 249, 249, 0.061);
+
+}
+
+h1 {
+    text-align: center;
+    //background-color:#0000bf;
+
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.005);
+}
+
+.carousel {
+    background-color: rgba(0, 0, 0, 0.005);
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    
+}
+
+#meuCarrossel {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-size: 25px;
+    background-image: url(../img/Fotos_empresa/car1.jpeg);
+    background-repeat: repeat;
+
+}
+
+#faixacentral {
+    background-color: #0000FC;
+    margin: auto;
+    padding: 1px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    //font-size: medium;
+}
+
+a:link {
+    color: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+#contatos {
+
+    .body {
+
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    .container {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contato {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        //width: 500px;
+        //max-width: 500px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .field {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    .text {
+        height: 150px;
+    }
+
+}
+
+#hr {
+    display: block;
+    width: 37%;
+    margin: auto;
+    color: rgba(255, 0, 0, 0.774);
+    background-color: red;
+
+}
+
+#hr1 {
+    display: block;
+    width: 100%;
+    margin: auto;
+    color: rgba(3, 3, 3, 0);
+    background-color: rgba(0, 0, 0, 0.431);
+}
+
+.display-1 {
+    background-attachment: fixed;
+}
+
+//.navbar-brand{
+//background-color:transparent;
+//padding: 1%;        
+//}
+.circle img {
+    background-color: #aaa;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: 5px;
+}
+
+.card {
+    width: 18rem;
+    margin: auto;
+    //margin-top: auto;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.144);
+
+
+}
+
+.card-body {
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    color: rgb(251, 251, 251);
+    background-color: #0000FC;
+    //border: solid 1px;
+
+    //.btn{
+    //    background-color: #0000bf;
+    // }    
+}
+
+#grid {
+    margin: auto;
+    padding: 5px;
+
+}
+
+.voltar_topo {
+
+    //background-color: white;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    //margin-left: 1250px;
+    padding-top: 10px;
+
+}
+
+.footer {
+    background-color: #010195;
+    height: 250px;
+    //justify-content: center;
+    //align-items: center;
+
+}
+
+.footer {
+    @media(max-width:500px) {
+        background-color: #010195;
+        height: 750px;
+
+    }
+}
+
+#setapracima32 {
+    //background-color: #0000bf88;
+    //color: #ddd;
+    //border-radius: 50%;
+    //overflow: hidden;
+    //position: relative;
+    margin: 1px;
+    transition: 0.2s;
+    //text-decoration: none;
+
+}
+
+#logoRodape {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+
+    @media (max-width:500px){
+        display: inline;
+        margin: auto;
+        padding: 10px;
+    }
+}
+
+
+
+
+#myFooter {
+    color: #ddd;
+    justify-content: center;
+
+}
+
+#myFooter {
+    //background-color: #0000FC;
+    color: white;
+    //padding-top: 10px;
+}
+
+.footer-copyright {
+    //height: 30px;
+    background-color: #02027e;
+    color: #ddd;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin: auto;
+    //margin-bottom: 60px;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+
+
+
+#myFooter .col-sm-2 {
+    justify-content: center;
+    align-items: center;
+
+}
+
+#myFooter.col {
+    margin: 50px;
+
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter.footer-copyright p {
+    margin: 10px;
+    color: rgb(255, 254, 254);
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    margin: 25px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+.footer-copyright .social-networks a{
+    //font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .whatsapp:hover {
+    color: #00E676;
+}
+.footer-copyright .whatsapp:hover{
+    color: #00E676;
+}
+
+#myFooter.voltar_topo:hover {
+    color: #ff0a0a;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #ff0a0a;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+.text h1 {
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.clearfix {
+    //display: inline-block;
+    margin: 20px;
+}
+
+.accordion {
+    width: 50%;
+    @media(max-width:500px) {
+        width: 100%;
+    }
+
+}
+
+///Paágina - Galeria
+#Cliente {
+    color: white;
+    text-shadow: black 2px 2px;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+#meusClientes {
+    //display: block;
+    position: relative;
+    height: 853px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    background-image: url(../img/Fotos_empresa/fundoparceiros.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .LogoContato{
+        display: none;
+    }
+    /*background-attachment: fixed;*/
+    @media (max-width:500px) {
+        height: auto;
+        text-align: center;
+        background-image: url(../img/Fotos_empresa/fundoestrada2.jpg);
+        background-position:center;
+        background-attachment: fixed;
+        
+        
+        .LogoContato{
+            display: block;
+            
+        }
+       
+       
+       
+        
+       
+
+    }
+}
+
+#meuCliente {
+    @media (max-width:500px) {
+        position: relative;
+        display: block;
+        text-align: center;
+    }
+}
+#meusClientes h6{
+    @media(max-width:500px) {
+      position: relative;
+      display: inline-flex;
+      text-align: center;
+      //background-size: auto;         
+        
+    }
+       
+}
+
+#meusClientes li{
+    @media(max-width:500px) {
+      text-align: center;  
+        
+         
+        
+    }
+       
+}
+#meuCliente {
+    @media(max-width:500px) {
+      display: block;
+      background-size: auto;
+      text-align: center;         
+        
+    }
+       
+}
+
+
+.lbox {
+    display: flex;
+    height: 5px;
+    width: 5px;
+    visibility: hidden;
+    opacity: 0;
+    @media (max-width:500px) {
+        display: block;
+    }
+    
+   
+}
+
+
+
+.lbox:target {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 1px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.472);
+    position: fixed;
+}
+
+#meusClientes ul {
+    //width: 340px;
+    list-style: none;
+    display: flex;
+    margin: 50px auto;
+    //margin-top: 210px;
+    //margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:500px) {
+        display: block;
+        margin:0;
+        padding: 0;
+       
+    }
+}
+//#meusClientes{
+    //@media(max-width:500px) {
+        //display: block;
+        //justify-content: center;
+        //align-items: center;
+                    
+        
+    //}
+//}
+#meusClientes .btn {
+    color: rgb(14, 13, 13);
+    font-family: arial;
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#prev {
+    left: 5%;
+    top: 45%;
+}
+
+#next {
+    right: 5%;
+    top: 45%;
+}
+
+#close {
+    top: 0;
+    right: 2%;
+}
+
+.min {
+    width: 200px;
+    padding: 10px;
+}
+
+.box_img {
+    height: 1px;
+    width: 1px;
+    margin: 150px auto;
+}
+
+.box_img img {
+    opacity: 0;
+}
+
+.lbox:target .box_img img {
+    opacity: 1;
+    transition: opacity 2s linear;
+
+}
+
+
+
+
+//Página Sobre Nós
+#Csobre {
+    //top: 0;
+    //left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+#Csobre.rounded img {
+    //height: 700px;
+    //width: 150px;
+    //display: block;
+    text-align: center;
+    //position: fixed;
+
+}
+
+#Csobre .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.005);
+}
+
+.sobreempresa {
+    text-align: center;
+}
+
+.sobreempresa h2 {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.sobreempresa p {
+    text-align: justify;
+    margin: auto;
+    //padding-left: 100px;
+
+}
+
+///Missao
+//.col.border{
+//height: 300px;
+//}
+.p-3 {
+    //height: auto;
+    margin-bottom: 10px;
+    
+
+
+
+}
+
+.col p {
+    display: flex;
+    height: 150px;
+    //justify-content: center;
+    text-align: justify;
+    margin: 0;
+    @media(max-width:500px) {
+        height: auto;
+    }
+}
+
+@keyframes p-3 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+.p-3 {
+    animation-name: p-3;
+    animation-duration: 4s;
+}
+
+
+///Serviços
+
+.serv {
+    display: flex;
+    align-items: left;
+
+}
+.servs {
+    display: block;
+    //margin-left: 50%;    
+    //text-align: center;
+}
+
+.flip-box {
+    
+
+    img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+    
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.servs{
+    h4{
+        text-align: center;
+    }
+    hr{               
+        margin: auto;
+        width: 50%;
+        //border: solid 1px;
+        color: black;
+        background-color: black;
+    }
+    h2{
+       text-align: center;
+    }
+}
+
+
+
+
+
+.servs,
+.flip-box,
+.flip-box-back,
+.flip-box-front,
+.flip-box-inner{
+     margin: auto;       
+    @media(max-width:500px) {
+        //display: flex;
+        align-items: center;
+        //padding-left: 5%;   
+          
+        
+    }
+}
+
+.serv {
+    @media(max-width:500px) {
+        display: block;
+        text-align: center;
+        
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$accordion-padding-y: 1rem;
+$accordion-padding-x: 1.25rem;
+$accordion-color: $body-color;
+$accordion-bg: $body-bg;
+$accordion-border-width: $border-width;
+$accordion-border-color: rgba($black, .125);
+$accordion-border-radius: $border-radius;
+$accordion-inner-border-radius: subtract($accordion-border-radius, $accordion-border-width);
+
+$accordion-body-padding-y: $accordion-padding-y;
+$accordion-body-padding-x: $accordion-padding-x;
+
+$accordion-button-padding-y: $accordion-padding-y;
+$accordion-button-padding-x: $accordion-padding-x;
+$accordion-button-color: $accordion-color;
+$accordion-button-bg: $accordion-bg;
+$accordion-transition: $btn-transition,
+border-radius .15s ease;
+$accordion-button-active-bg: tint-color($component-active-bg, 90%);
+$accordion-button-active-color: shade-color($primary, 10%);
+
+$accordion-button-focus-border-color: $input-focus-border-color;
+$accordion-button-focus-box-shadow: $btn-focus-box-shadow;
+
+$accordion-icon-width: 1.25rem;
+$accordion-icon-color: $accordion-color;
+$accordion-icon-active-color: $accordion-button-active-color;
+$accordion-icon-transition: transform .2s ease-in-out;
+$accordion-icon-transform: rotate(180deg);
+
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");

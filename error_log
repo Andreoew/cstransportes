@@ -1,0 +1,2 @@
+[12-Apr-2021 00:00:28 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[12-Apr-2021 00:00:28 America/Fortaleza] PHP Parse error:  syntax error, unexpected '$nome' (T_VARIABLE) in /home1/cristransportes/public_html/email.php on line 5
