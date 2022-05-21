@@ -25,6 +25,7 @@ $header = "From:contato@cstransportes.com.br"."\r\n".
             
 if(mail($to,$subject,$body,$header)){
     echo("$nome, O Email enviado com sucesso!");
+    header("Refresh: 5;url=https://cstransportes.com.br");
     
 
 }else{
